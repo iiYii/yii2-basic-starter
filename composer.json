@@ -20,7 +20,6 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "yiier/yii2-helpers": "*",
         "yiier/yii2-validators": "*",
-        "overtrue/wechat": "~4.0",
         "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
