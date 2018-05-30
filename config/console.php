@@ -1,7 +1,7 @@
 <?php
 
+$common = require(__DIR__ . '/common.php');
 $params = require __DIR__ . '/params.php';
-$db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic-console',
@@ -24,7 +24,6 @@ $config = [
                 ],
             ],
         ],
-        'db' => $db,
     ],
     'params' => $params,
     /*
@@ -44,4 +43,4 @@ if (YII_ENV_DEV) {
     ];
 }
 
-return $config;
+return \yii\helpers\ArrayHelper::merge($common, $config);
