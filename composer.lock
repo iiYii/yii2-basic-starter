@@ -320,16 +320,16 @@
         },
         {
             "name": "yiier/yii2-helpers",
-            "version": "v1.0",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiier/yii2-helpers.git",
-                "reference": "3d586c505aa9eaa08f1d5349d207898dbe1892d6"
+                "reference": "64b129bb7966ebc11eea69a095a14a76fd3171e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiier/yii2-helpers/zipball/3d586c505aa9eaa08f1d5349d207898dbe1892d6",
-                "reference": "3d586c505aa9eaa08f1d5349d207898dbe1892d6",
+                "url": "https://api.github.com/repos/yiier/yii2-helpers/zipball/64b129bb7966ebc11eea69a095a14a76fd3171e9",
+                "reference": "64b129bb7966ebc11eea69a095a14a76fd3171e9",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +357,7 @@
                 "helpers",
                 "yii2"
             ],
-            "time": "2018-05-29T08:26:36+00:00"
+            "time": "2018-05-30T03:47:00+00:00"
         },
         {
             "name": "yiier/yii2-validators",
